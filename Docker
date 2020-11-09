@@ -1,0 +1,3 @@
+./mvnw spring-boot:build-image
+4
+docker run --publish 9000:9000 gateway:0.0.1-SNAPSHOT
